@@ -29,7 +29,9 @@
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/react": "*"
+    "@ignite-ui/tsconfig": "*",
+    "polished": "^4.2.2"
   }
 }
