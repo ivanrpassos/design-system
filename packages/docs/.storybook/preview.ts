@@ -1,4 +1,4 @@
-import { CustomTheme } from '../Theme/customTheme';
+import { CustomTheme } from '../Theme/CustomTheme';
 
 import { Preview } from '@storybook/react';
 
