@@ -33,6 +33,7 @@
     "@ignite-ui/tokens": "*",
     "@ignite-ui/tsconfig": "*",
     "@phosphor-icons/react": "^2.0.9",
+    "@storybook/addon-a11y": "^7.0.9",
     "polished": "^4.2.2"
   }
 }
