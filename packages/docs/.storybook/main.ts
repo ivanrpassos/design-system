@@ -1,6 +1,6 @@
 import { StorybookConfig } from '@storybook/react-vite';
 
-const config: StorybookConfig = {
+const main: StorybookConfig = {
   stories: [
     '../src/pages/**/*.mdx',
     '../src/stories/**/*.stories.@(js|jsx|ts|tsx)',
@@ -20,11 +20,11 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = 'design-system';
+      config.base = '/design-system';
     }
 
     return config;
   },
 };
 
-export default config;
+export default main;
