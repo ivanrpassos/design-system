@@ -1,27 +1,30 @@
-import { StorybookConfig } from "@storybook/react-vite"
+import { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
-  stories: ["../src/pages/**/*.mdx", "../src/stories/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: [
+    '../src/pages/**/*.mdx',
+    '../src/stories/**/*.stories.@(js|jsx|ts|tsx)',
+  ],
   addons: [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
-    "@storybook/addon-a11y"
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
+    '@storybook/addon-a11y',
   ],
   framework: {
-    name: "@storybook/react-vite",
+    name: '@storybook/react-vite',
     options: {},
   },
   docs: {
-    autodocs: "tag",
+    autodocs: 'tag',
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/design-system/'
+      config.base = '/design-system/';
     }
 
-    return config
-  }
-}
+    return config;
+  },
+};
 
 export default config;

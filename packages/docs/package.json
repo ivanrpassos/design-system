@@ -1,10 +1,9 @@
 {
-  "name": "docs",
+  "name": "@ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
     "deploy-storybook": "storybook-to-ghpages"
@@ -33,7 +32,7 @@
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/tsconfig": "*",
+    "@ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.0.9",
     "@storybook/addon-a11y": "^7.0.9",
     "polished": "^4.2.2"
