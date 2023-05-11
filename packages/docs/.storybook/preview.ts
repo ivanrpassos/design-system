@@ -1,14 +1,18 @@
-import { CustomTheme } from '../Theme/CustomTheme';
-
-import { Preview } from '@storybook/react';
+import { Preview } from "@storybook/react"
+import { themes } from "@storybook/theming"
 
 const preview: Preview = {
   parameters: {
-    docs: {
-      components: {
-        code: CustomTheme,
+    actions: { argTypesRegex: "^on[A-Z].*" },
+    controls: {
+      matchers: {
+        color: /(background|color)$/i,
+        date: /Date$/,
       },
     },
+    docs: {
+      themes: themes.dark
+    }
   },
 };
 

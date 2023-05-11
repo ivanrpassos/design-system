@@ -16,14 +16,14 @@ const main: StorybookConfig = {
     options: {},
   },
   core: {
-    "builder": "@storybook/builder-vite"
+    builder: "@storybook/builder-vite"
   },
   docs: {
     autodocs: 'tag',
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/design-system/'; 
+      config.base = '/design-system/';
     }
 
     return config;

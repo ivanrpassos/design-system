@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@ivanrpassos-ds/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,30 +12,29 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.7",
-    "@storybook/addon-interactions": "^7.0.7",
-    "@storybook/addon-links": "^7.0.7",
-    "@storybook/blocks": "^7.0.7",
+    "@storybook/addon-essentials": "^7.0.10",
+    "@storybook/addon-interactions": "^7.0.10",
+    "@storybook/addon-links": "^7.0.10",
+    "@storybook/blocks": "^7.0.10",
     "@storybook/builder-vite": "^7.0.10",
-    "@storybook/react": "^7.0.7",
-    "@storybook/react-vite": "^7.0.7",
-    "@storybook/react-webpack5": "^7.0.7",
+    "@storybook/react": "^7.0.10",
+    "@storybook/react-vite": "^7.0.10",
     "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@vitejs/plugin-react": "^4.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.0.7",
-    "vite": "^4.3.4"
+    "storybook": "^7.0.10",
+    "vite": "^4.3.5"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@ivanrpassos-ds/eslint-config": "*",
+    "@ivanrpassos-ds/react": "*",
+    "@ivanrpassos-ds/tokens": "*",
+    "@ivanrpassos-ds/ts-config": "*",
     "@phosphor-icons/react": "^2.0.9",
-    "@storybook/addon-a11y": "^7.0.9",
+    "@storybook/addon-a11y": "^7.0.10",
     "polished": "^4.2.2"
   }
 }
